@@ -1,0 +1,30 @@
+1511722381650	geckodriver	INFO	Listening on 127.0.0.1:2517
+1511722383701	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1511722384334	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\태형\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1511722386649	Marionette	INFO	Listening on port 2524
+1511722386854	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511722386944	Marionette	DEBUG	Register listener.js for window 4294967297
+1511722386997	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511722387270	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511722387270	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511722387281	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1511722387297	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+[GFX1-]: LayerManager::EndTransaction skip RenderLayer().
+[GFX1-]: GFX: D3D11 detected a device reset in ResizeBuffers
+[GFX1-]: Could not resize the swapchain (0x55a,0x30a)
+[GFX1-]: (gfxWindowsPlatform) Detected device reset: 3
+[GFX1-]: (gfxWindowsPlatform) scheduled device update.
+[GFX1-]: (gfxWindowsPlatform) Detected device reset: 3
+[GFX1-]: (gfxWindowsPlatform) scheduled device update.
+[GFX1-]: (gfxWindowsPlatform) Detected device reset: 3
+[GFX1-]: (gfxWindowsPlatform) scheduled device update.
+[GFX1-]: LayerManager::EndTransaction skip RenderLayer().
+[GFX1-]: Could not resize the swapchain (0x55a,0x30a)
+Unable to read VR Path Registry from C:\Users\태형\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 11464, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11464, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\태형\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
