@@ -184,3 +184,92 @@ Unable to read VR Path Registry from C:\Users\태형\AppData\Local\openvr\openvr
 1511817642722	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 1511817642754	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
 1511817642758	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1513085337875	geckodriver	INFO	geckodriver 0.19.1
+1513085337880	geckodriver	INFO	Listening on 127.0.0.1:52895
+1513085339029	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.BI0prmtyW5fV"
+1513085339534	Marionette	INFO	Enabled via --marionette
+1513085340861	Marionette	INFO	Listening on port 38027
+1513085340951	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513085341031	Marionette	DEBUG	Register listener.js for window 2147483649
+1513085341051	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513085341088	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513085341088	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513085341094	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1513085341120	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1513085341334	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 7595, Chrome_ChildThread] WARNING: pipe error (20): 상대편이 연결을 끊음: file /build/firefox-_ZEv2Z/firefox-57.0.1+linuxmint1+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513085372439	geckodriver	INFO	geckodriver 0.19.1
+1513085372444	geckodriver	INFO	Listening on 127.0.0.1:38511
+1513085373594	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.PpAR9kkXt0XI"
+1513085374082	Marionette	INFO	Enabled via --marionette
+1513085375402	Marionette	INFO	Listening on port 33467
+1513085375424	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513085375494	Marionette	DEBUG	Register listener.js for window 2147483649
+1513085375539	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513085375561	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513085375561	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513085375570	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1513085375584	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1513085375820	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 7786, Chrome_ChildThread] WARNING: pipe error (34): 상대편이 연결을 끊음: file /build/firefox-_ZEv2Z/firefox-57.0.1+linuxmint1+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7786, Chrome_ChildThread] WARNING: pipe error (19): 상대편이 연결을 끊음: file /build/firefox-_ZEv2Z/firefox-57.0.1+linuxmint1+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 7786, Chrome_ChildThread] WARNING: pipe error (3): 상대편이 연결을 끊음: file /build/firefox-_ZEv2Z/firefox-57.0.1+linuxmint1+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513089682852	geckodriver	INFO	geckodriver 0.19.1
+1513089682856	geckodriver	INFO	Listening on 127.0.0.1:58509
+1513089683987	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.airmyqC2ITH2"
+1513089684483	Marionette	INFO	Enabled via --marionette
+1513089685881	Marionette	INFO	Listening on port 38469
+1513089685951	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513089686025	Marionette	DEBUG	Register listener.js for window 2147483649
+1513089686057	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513089686080	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513089686081	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513089686089	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1513089686109	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1513089686419	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 10257, Chrome_ChildThread] WARNING: pipe error (34): 상대편이 연결을 끊음: file /build/firefox-_ZEv2Z/firefox-57.0.1+linuxmint1+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10257, Chrome_ChildThread] WARNING: pipe error (20): 상대편이 연결을 끊음: file /build/firefox-_ZEv2Z/firefox-57.0.1+linuxmint1+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 10257, Chrome_ChildThread] WARNING: pipe error (3): 상대편이 연결을 끊음: file /build/firefox-_ZEv2Z/firefox-57.0.1+linuxmint1+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513089758105	geckodriver	INFO	geckodriver 0.19.1
+1513089758109	geckodriver	INFO	Listening on 127.0.0.1:36869
+1513089759255	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Eoy6wWqHzykI"
+1513089759728	Marionette	INFO	Enabled via --marionette
+1513089761424	Marionette	INFO	Listening on port 36307
+1513089761477	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513089761566	Marionette	DEBUG	Register listener.js for window 2147483649
+1513089761600	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513089761620	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513089761620	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513089761626	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1513089761640	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+[Child 10650, Chrome_ChildThread] WARNING: pipe error (20): 상대편이 연결을 끊음: file /build/firefox-_ZEv2Z/firefox-57.0.1+linuxmint1+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513094595488	geckodriver	INFO	geckodriver 0.19.1
+1513094595493	geckodriver	INFO	Listening on 127.0.0.1:49235
+1513094596648	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IXsg99N7AjhH"
+1513094597173	Marionette	INFO	Enabled via --marionette
+1513094598867	Marionette	INFO	Listening on port 42009
+1513094598962	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513094599037	Marionette	DEBUG	Register listener.js for window 2147483649
+1513094599068	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513094599092	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513094599093	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513094599099	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1513094599121	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1513094599412	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 13882, Chrome_ChildThread] WARNING: pipe error (34): 상대편이 연결을 끊음: file /build/firefox-_ZEv2Z/firefox-57.0.1+linuxmint1+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 13882, Chrome_ChildThread] WARNING: pipe error (15): 상대편이 연결을 끊음: file /build/firefox-_ZEv2Z/firefox-57.0.1+linuxmint1+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 13882, Chrome_ChildThread] WARNING: pipe error (3): 상대편이 연결을 끊음: file /build/firefox-_ZEv2Z/firefox-57.0.1+linuxmint1+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513094617898	geckodriver	INFO	geckodriver 0.19.1
+1513094617903	geckodriver	INFO	Listening on 127.0.0.1:39797
+1513094618095	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.9i0U4O991TY0"
+1513094618655	Marionette	INFO	Enabled via --marionette
+1513094620414	Marionette	INFO	Listening on port 35287
+1513094620515	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513094620586	Marionette	DEBUG	Register listener.js for window 2147483649
+1513094620607	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513094620625	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513094620625	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513094620631	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1513094620645	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+[Child 14034, Chrome_ChildThread] WARNING: pipe error (15): 상대편이 연결을 끊음: file /build/firefox-_ZEv2Z/firefox-57.0.1+linuxmint1+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14034, Chrome_ChildThread] WARNING: pipe error (3): 상대편이 연결을 끊음: file /build/firefox-_ZEv2Z/firefox-57.0.1+linuxmint1+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
